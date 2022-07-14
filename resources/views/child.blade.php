@@ -12,13 +12,11 @@
 
 @section('content')
 <p>This is my body content.</p>
-{{$user}}
 <button type="button" class="btn btn-primary">Submit</button>
 @push('scripts')
 <script>
     var name = "Robin";
     console.log(name);
-
 </script>
 @endpush
 @endsection
